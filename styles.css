@@ -10,11 +10,11 @@ header {
   margin-left: -8px;
   height: 70px;
   margin-top: -8px;
-  background: linear-gradient( -90deg,#0d2e63 50%,#2d6d8d,#419cbf );
+  background: linear-gradient(-90deg, #0d2e63 50%, #2d6d8d, #419cbf);
   z-index: 1
 }
 
-#navbar p{
+#navbar p {
   font-size: 25px;
   position: absolute;
   right: 70px;
@@ -32,10 +32,10 @@ header {
 }
 
 #welcome-section {
- background: linear-gradient( 210deg,#02171a 50% , #450505 ,#870101 );
- padding-top: 86vh;
- margin-left: -8px;
- margin-right: -8px;
+  background: linear-gradient(210deg, #02171a 50%, #450505, #870101);
+  padding-top: 86vh;
+  margin-left: -8px;
+  margin-right: -8px;
 }
 
 #welcome-section h1 {
@@ -64,10 +64,11 @@ header {
   margin-left: -8px;
   margin-right: -8px;
   margin-top: -20px;
-  
+
 }
 
-#projects h1, #projects hr {
+#projects h1,
+#projects hr {
   position: relative;
   top: -72vh;
   font-family: Helvetica;
@@ -90,17 +91,18 @@ header {
   background-color: #0d2e63
 }
 
-.pr1, .pr2 {
+.pr1,
+.pr2 {
   background-color: #0d2e63;
   margin: 0px;
   padding: 0px;
 }
 
 #projects img {
- width: 400px;
- height: 400px;
- margin: 0;
- border-radius: 50px
+  width: 400px;
+  height: 400px;
+  margin: 0;
+  border-radius: 50px
 }
 
 #projects a {
@@ -144,6 +146,4 @@ header {
   top: 8
 }
 
-@media (max-width: 1000px){
-
-}
+@media (max-width: 1000px) {}
